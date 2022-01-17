@@ -324,7 +324,9 @@ def main():
 
 
         except Exception as enrer:
-            userfound =True
+            os.chdir(home)
+            os.mkdir(".YoTUBE data")
+            userfound =False
 
 
     except Exception as ee:
